@@ -53,7 +53,7 @@ def btc_usd(bot: Bot, update: Update):
 def main():
     bot = Bot(
             token = TG_TOKEN,
-            base_url = TG_API_URL,
+            #base_url = TG_API_URL,
             )
     updater = Updater(
             bot = bot,
